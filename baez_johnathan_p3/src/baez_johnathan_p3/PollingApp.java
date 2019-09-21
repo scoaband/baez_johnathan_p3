@@ -88,40 +88,40 @@ public class PollingApp {
 		   
 		   int n,n1,n2,n3,n4,n5,n6,n7,n8,n9,n10;
 		   n1 = 0; n2 = 0; n3 = 0; n4 = 0; n5 = 0; n6 = 0; n7 = 0; n8 = 0; n9 = 0; n10 = 0;
-		   n = total;
-		   switch (peoples) {
+		   n = (int)lk;
+		   switch (n) {
 		   case 1:
-			   n1 = n;
+			   n1 = 1;
 			   break;
 		   case 2:
-			   n2 = n;
+			   n2 = 1;
 			   break;
 		   case 3:
-			   n3 = n;
+			   n3 = 1;
 			   break;
 		   case 4:
-			   n4 = n;
+			   n4 = 1;
 			   break;
 		   case 5:
-			   n5 = n;
+			   n5 = 1;
 			   break;
 		   case 6:
-			   n6 = n;
+			   n6 = 1;
 			   break;
 		   case 7:
-			   n7 = n;
+			   n7 = 1;
 			   break;
 		   case 8:
-			   n8 = n;
+			   n8 = 1;
 			   break;
 		   case 9:
-			   n9 = n;
+			   n9 = 1;
 			   break;
 		   case 10:
-			   n10 = n;
+			   n10 = 1;
 			   break;
 		   }
-		   String centerAlignFormat = "\t| %-10s | %-1d | %-1d | %-1d | %-1d | %-1d | %-1d | %-1d | %-1d | %-1d | %-2d | %.2f      |%n";
+		   String centerAlignFormat = "\t| %-10s | %-1d | %-1d | %-1d | %-1d | %-1d | %-1d | %-1d | %-1d | %-1d | %-2d | %.2f       |%n";
 		  
 		   System.out.format(centerAlignFormat, topics[k] , n1 , n2 , n3 , n4 , n5 , n6 , n7 , n8 , n9 , n10, lk);
 		   System.out.format("\t+------------+-----------------------------------------------------+%n");
